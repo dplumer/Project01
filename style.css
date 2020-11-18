@@ -1,0 +1,52 @@
+p.normal {
+    font-style: normal;
+  }
+  
+  p.italic {
+    font-style: italic;
+  }
+  
+  p.oblique {
+    font-style: oblique;
+  }
+  #header{
+    text-shadow: 3px 2px #331a00; text-align:center;
+  }
+  body {
+   background-image: url("https://i.postimg.cc/sftC5krP/Forest.jpg");
+    background-color: #cccccc; background-repeat:no-repeat; background-size:1500px; background-repeat:repeat;}
+  #title
+  {
+    color:#008000
+  }
+  p.groove {border-style: groove;}
+  #header{
+    border-width: 5px;
+    background-color: #ffffff; margin-left:350px; margin-right:350px; border-radius: 25px; opacity:75%;
+  }
+  #Introduction{
+    border-width: 3px;
+    background-color: #996633;
+    opacity:75%; padding:25px;
+  ;
+  }
+  #Introduction{
+    text-align: center; text-align:center;  color:#ffffff; margin-right:350px; margin-left:350px;border-radius: 25px;
+  }
+  #movies{
+    color:#ffffff; border-width:5px; border-width: 3px;
+    background-color: #996633; margin-right:250px; margin-left:250px; border-radius:25px; opacity:90%; 
+  }
+  p{
+    color:#ffffff; font-size:20px; padding:50px; text-indent:25px;
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  h3{
+    text-align:center
+  }
+  
