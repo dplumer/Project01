@@ -49,4 +49,11 @@ p.normal {
   h3{
     text-align:center
   }
+  a:hover {
+    background-color: forestgreen;
+  }
+  a:visited {
+    color: forestgreen;}
+  
+    a:link {color: firebrick}
   
