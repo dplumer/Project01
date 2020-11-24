@@ -10,15 +10,15 @@
 
   <!-- Centered link -->
   <div class="topnav-centered">
-    <a href="#home" class="active">Home</a>
+    <a href="#home" class="active"></a>
   </div>
 
   <!-- Left-aligned links (default) -->
    <div class="topnav-left">
   <a href="Boardgames.html" class="active"><img src="https://i.postimg.cc/66ZHbgnf/Dice-Board-Game-512.png" width="60" height="60"<div class="myDIV">
 <div class="hide">My Favorite Board Games</div></a>
-  <a href="contact.html" class="active"><img src="https://i.postimg.cc/qMDtH0tC/contact-me.jpg" width="60" height="60"<div class="myDIV">
-<div class="hide">Talk To Me</div></a>
+  <a href="Frontpage.html" class="active"><img src="https://i.postimg.cc/y62tM278/Home-Button.png" width="60" height="60"<div class="myDIV">
+<div class="hide"></div></a>
   </div>
 
   <!-- Right-aligned links -->
@@ -64,27 +64,27 @@ input[type=submit]:hover {
 </style>
 </head>
 <body>
-<h3>It's Nice to Meet You</h3>
-
+    <div id="header">
+        <h1 id="title">It's Nice to Meet You</h1>
+    </div> 
 <div class="container" top-margin:100px>
-  <form action="/action_page.php">
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
-
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
-    <label for="country">Country</label>
-    <select id="country" name="country">
-      <option value="australia">Australia</option>
-      <option value="canada">Canada</option>
-      <option value="usa">USA</option>
-    </select>
-
-    <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-
-    <input type="submit" value="Submit">
+    <form
+    action="https://formspree.io/f/xnqobqzo"
+    method="POST"
+  >
+    <label>
+      Your email:
+      <input type="text" name="_replyto">
+    </label>
+    <label>
+      Your message:
+      <textarea name="message"></textarea>
+    </label>
+     
+   
+  
+    <button type="submit">Send</button>
+  </form>
   </form>
 </div>
 
